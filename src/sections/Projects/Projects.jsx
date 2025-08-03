@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import funrun from "../../assets/funrun.png";
+import freshcut from "../../assets/freshcut.png";
+import good2eat from "../../assets/good2eat.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -12,28 +11,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/nikolaizl/"
-          h3="Viberr"
-          p="Streaming App"
+          src={funrun}
+          link="https://github.com/Nikolaizl/running-scheduling-app"
+          h3="FunRun"
+          p="Running Schedule App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/nikolaizl/"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={freshcut}
+          link="https://github.com/Nikolaizl/barber-queue-app"
+          h3="Fresh Cut"
+          p="Barber Queue App"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/nikolaizl/"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/nikolaizl/"
-          h3="FitLift"
-          p="Fitness App"
+          src={good2eat}
+          link="https://github.com/Nikolaizl/food-expiry-date-reminder"
+          h3="Good2Eat"
+          p="Expiry Date Reminder"
         />
       </div>
     </section>
