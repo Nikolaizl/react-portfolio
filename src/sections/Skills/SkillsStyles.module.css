@@ -33,7 +33,7 @@ hr {
 
 @media (width >= 800px) {
     .skillList {
-        max-width: fit-content;
+        max-width: 80ch;
         gap: 30px;
 
         p {
