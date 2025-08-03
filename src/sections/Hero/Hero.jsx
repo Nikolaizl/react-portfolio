@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImg from "../../assets/profile.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import instagramLight from "../../assets/instagram-light.svg";
@@ -48,8 +48,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          I love turning logic into interactive experiences. As a fast learner
+          passionate about problem-solving, I build modern React apps and enjoy
+          every step of the learning journey.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
